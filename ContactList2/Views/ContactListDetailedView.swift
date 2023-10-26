@@ -14,8 +14,8 @@ struct ContactListDetailedView: View {
         NavigationStack {
             List(contacts) { contact in
                 Section(contact.fullName) {
-                    Label(contact.phone, systemImage: "phone.circle.fill")
-                    Label(contact.email, systemImage: "at.circle.fill")
+                    Label(contact.phone, systemImage: "phone")
+                    Label(contact.email, systemImage: "tray")
                 }
             }
             .listStyle(.plain)

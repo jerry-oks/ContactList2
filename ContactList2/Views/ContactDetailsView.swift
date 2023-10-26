@@ -17,12 +17,11 @@ struct ContactDetailsView: View {
                 Image(systemName: contact.photo)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .foregroundStyle(.secondary)
-                    .frame(width: 150, height: 250)
+                    .frame(width: 100, height: 140)
                 Spacer()
             }
-            Label(contact.phone, systemImage: "phone.circle.fill")
-            Label(contact.email, systemImage: "at.circle.fill")
+            Label(contact.phone, systemImage: "phone")
+            Label(contact.email, systemImage: "tray")
         }
         .scrollDisabled(true)
         .navigationTitle(contact.fullName)

@@ -14,13 +14,13 @@ struct MainTabView: View {
         TabView {
             ContactListView(contacts: contacts)
                 .tabItem {
-                    Image(systemName: "person.crop.rectangle.fill")
+                    Image(systemName: "person.2.fill")
                     Text("Contacts")
                 }
             ContactListDetailedView(contacts: contacts)
                 .tabItem {
-                    Image(systemName: "person.text.rectangle.fill")
-                    Text("Contacts (detailed)")
+                    Image(systemName: "phone.fill")
+                    Text("Numbers")
                 }
         }
     }
