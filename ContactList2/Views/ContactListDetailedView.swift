@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContactListDetailedView: View {
-    let contacts: [Contact]
+    let contacts: [Person]
     
     var body: some View {
         NavigationStack {
@@ -25,5 +25,5 @@ struct ContactListDetailedView: View {
 }
 
 #Preview {
-    ContactListDetailedView(contacts: Contact.getRandomContactList())
+    ContactListDetailedView(contacts: Person.getRandomContactList())
 }

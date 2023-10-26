@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Contact: Identifiable {
+struct Person: Identifiable {
     let id = UUID()
     let name: String
     let surname: String
@@ -19,8 +19,8 @@ struct Contact: Identifiable {
         "\(name) \(surname)"
     }
     
-    static func getRandomContactList() -> [Contact] {
-        var contacts: [Contact] = []
+    static func getRandomContactList(sorted: Bool = true) -> [Person] {
+        var contacts: [Person] = []
         
         let data = DataStore.shared
         
@@ -33,7 +33,7 @@ struct Contact: Identifiable {
         
         for index in 0..<count {
             contacts.append(
-                Contact(
+                Person(
                     name: names[index],
                     surname: surnames[index],
                     phone: phones[index],
@@ -43,7 +43,7 @@ struct Contact: Identifiable {
             )
         }
         
-        return contacts.sorted { $0.name < $1.name }
+        return sorted ? contacts.sorted { $0.name < $1.name } : contacts
     }
 }
 

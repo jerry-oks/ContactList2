@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainTabView: View {
-    let contacts = Contact.getRandomContactList()
+    private let contacts = Person.getRandomContactList(sorted: false)
     
     var body: some View {
         TabView {
@@ -25,6 +25,8 @@ struct MainTabView: View {
         }
     }
 }
+
+
 
 #Preview {
     MainTabView()

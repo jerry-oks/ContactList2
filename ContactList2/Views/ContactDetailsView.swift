@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContactDetailsView: View {
-    let contact: Contact
+    let contact: Person
     
     var body: some View {
         List {
@@ -30,7 +30,7 @@ struct ContactDetailsView: View {
 }
 
 #Preview {
-    ContactDetailsView(contact: Contact(
+    ContactDetailsView(contact: Person(
         name: "Steve",
         surname: "Jobs",
         phone: "+1 (000) 000-00-00",

@@ -8,16 +8,14 @@
 import SwiftUI
 
 struct ContactListView: View {
-    let contacts: [Contact]
+    let contacts: [Person]
     
     var body: some View {
         NavigationStack {
             List(contacts) { contact in
                 NavigationLink(
                     contact.fullName,
-                    destination: ContactDetailsView(
-                        contact: contact
-                    )
+                    destination: ContactDetailsView(contact: contact)
                 )
             }
             .listStyle(.plain)
@@ -27,5 +25,5 @@ struct ContactListView: View {
 }
 
 #Preview {
-    ContactListView(contacts: Contact.getRandomContactList())
+    ContactListView(contacts: Person.getRandomContactList())
 }

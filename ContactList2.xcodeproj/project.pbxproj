@@ -11,7 +11,7 @@
 		3B578F862AEA64A900EC15E9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F852AEA64A900EC15E9 /* MainTabView.swift */; };
 		3B578F882AEA64AA00EC15E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B578F872AEA64AA00EC15E9 /* Assets.xcassets */; };
 		3B578F8B2AEA64AA00EC15E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B578F8A2AEA64AA00EC15E9 /* Preview Assets.xcassets */; };
-		3B578F972AEA657900EC15E9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F922AEA657900EC15E9 /* Contact.swift */; };
+		3B578F972AEA657900EC15E9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F922AEA657900EC15E9 /* Person.swift */; };
 		3B578F982AEA657900EC15E9 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F942AEA657900EC15E9 /* DataStore.swift */; };
 		3B578F9E2AEA666700EC15E9 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F9D2AEA666700EC15E9 /* ContactListView.swift */; };
 		3B578FA02AEA667600EC15E9 /* ContactListDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B578F9F2AEA667600EC15E9 /* ContactListDetailedView.swift */; };
@@ -24,7 +24,7 @@
 		3B578F852AEA64A900EC15E9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		3B578F872AEA64AA00EC15E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B578F8A2AEA64AA00EC15E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3B578F922AEA657900EC15E9 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3B578F922AEA657900EC15E9 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3B578F942AEA657900EC15E9 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		3B578F9D2AEA666700EC15E9 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		3B578F9F2AEA667600EC15E9 /* ContactListDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListDetailedView.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		3B578F912AEA657900EC15E9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3B578F922AEA657900EC15E9 /* Contact.swift */,
+				3B578F922AEA657900EC15E9 /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			files = (
 				3B578F9E2AEA666700EC15E9 /* ContactListView.swift in Sources */,
 				3B578FA02AEA667600EC15E9 /* ContactListDetailedView.swift in Sources */,
-				3B578F972AEA657900EC15E9 /* Contact.swift in Sources */,
+				3B578F972AEA657900EC15E9 /* Person.swift in Sources */,
 				3B578FA22AEA669200EC15E9 /* ContactDetailsView.swift in Sources */,
 				3B578F982AEA657900EC15E9 /* DataStore.swift in Sources */,
 				3B578F862AEA64A900EC15E9 /* MainTabView.swift in Sources */,
